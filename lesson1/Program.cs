@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using lesson1.Solutions;
 
 namespace lesson1
 {
@@ -11,7 +12,7 @@ namespace lesson1
             // Console.WriteLine("Welcome, " + name + ".");
             // Console.WriteLine(float.MaxValue.ToString() + " " + int.MinValue.ToString());
 
-            var inputs = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            // var inputs = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
             // foreach(string input in inputs)
             // {
             //     int son = 0;
@@ -26,12 +27,16 @@ namespace lesson1
             //     }
                 
             // }
-            var ints = inputs.Select(i => 
-            {
-                int son = int.Parse(i);
-                Console.WriteLine(son);
-                return son;
-            }).ToList();
+            // var ints = inputs.Select(i => 
+            // {
+            //     int son = int.Parse(i);
+            //     Console.WriteLine(son);
+            //     return son;
+            // }).ToList();
+            var lab2Instance = new Lab2();
+            lab2Instance.problem1();
+            lab2Instance.problem2();
+            lab2Instance.problem3();
         }
     }
 }
