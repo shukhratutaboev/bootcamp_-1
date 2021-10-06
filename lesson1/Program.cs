@@ -37,6 +37,7 @@ namespace lesson1
             lab2Instance.problem1();
             lab2Instance.problem2();
             lab2Instance.problem3();
+            lab2Instance.problem4();
         }
     }
 }
