@@ -34,10 +34,12 @@ namespace lesson1
             //     return son;
             // }).ToList();
             var lab2Instance = new Lab2();
+            
             lab2Instance.problem1();
             lab2Instance.problem2();
             lab2Instance.problem3();
             lab2Instance.problem4();
+            lab2Instance.problem5();
         }
     }
 }

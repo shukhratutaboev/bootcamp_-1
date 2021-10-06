@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace lesson1.Solutions
 {
@@ -28,6 +29,20 @@ namespace lesson1.Solutions
             Console.Write("Birhdate\nEnter month and date: ");
             var birthday = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
             Console.WriteLine("Birthday is " + int.Parse(birthday[0]).ToString("D2") + "-" + int.Parse(birthday[1]).ToString("D2"));
+        }
+
+        public void problem5()
+        {
+            Console.Write("Enter integer: ");
+            var son = Console.ReadLine();
+            Console.WriteLine(son + son + son + son + son + son);
+            Console.WriteLine(son + "    " + son);
+            Console.WriteLine(son + "    " + son);
+            foreach (int i in Enumerable.Range(0,6))
+            {
+                Console.Write(son);
+            }
+            Console.WriteLine();
         }
     
     }
