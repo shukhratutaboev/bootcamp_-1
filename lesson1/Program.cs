@@ -35,15 +35,24 @@ namespace lesson1
             // }).ToList();
             var lab2Instance = new Lab2();
             
-            lab2Instance.problem1();
-            lab2Instance.problem2();
-            lab2Instance.problem3();
-            lab2Instance.problem4();
-            lab2Instance.problem5();
-            lab2Instance.problem6();
-            lab2Instance.problem7();
-            lab2Instance.problem8();
-            lab2Instance.problem9();
+            // lab2Instance.problem1();
+            // lab2Instance.problem2();
+            // lab2Instance.problem3();
+            // lab2Instance.problem4();
+            // lab2Instance.problem5();
+            // lab2Instance.problem6();
+            // lab2Instance.problem7();
+            // lab2Instance.problem8();
+            // lab2Instance.problem9();
+
+            var lab3Instance = new Lab3();
+
+            lab3Instance.problem1();
+            lab3Instance.problem2();
+            lab3Instance.problem3();
+            lab3Instance.problem4();
+            lab3Instance.problem5();
+            lab3Instance.problem6();
         }
     }
 }
