@@ -65,7 +65,11 @@ namespace lesson1
             // lab4Instance.problem7();
             // lab4Instance.problem8();
             // lab4Instance.problem9();
-            lab4Instance.problem10();
+            // lab4Instance.problem10();
+
+            var lab5Instance = new Lab5();
+
+            lab5Instance.problem1();
         }
     }
 }
