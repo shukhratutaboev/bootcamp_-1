@@ -177,5 +177,25 @@ namespace lesson1.Solutions
             }
             Console.WriteLine($"{s}S{b}B");
         }
+        public void problem10()
+        {
+            var str = Console.ReadLine().Split(' ').ToList();
+            if(Convert.ToChar(str[1]) == '+')
+            {
+                Console.WriteLine(int.Parse(str[0]) + int.Parse(str[2]));
+            }
+            else
+            {
+                Console.WriteLine(int.Parse(str[0]) - int.Parse(str[2]));
+            }
+        }
+        public void problem11()
+        {
+            string[] d = {"Americano", "Caffe Latte", "Lemon Tea"};
+            int[] c = {500, 400, 300};
+            int dn = int.Parse(Console.ReadLine()) - 1;
+            int m = int.Parse(Console.ReadLine());
+            Console.WriteLine(d[dn] + "\n" + (m - c[dn])/500 + " " + ((m - c[dn])%500)/100);
+        }
     }
 }

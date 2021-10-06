@@ -77,7 +77,9 @@ namespace lesson1
             // lab5Instance.problem6();
             // lab5Instance.problem7();
             // lab5Instance.problem8();
-            lab5Instance.problem9();
+            // lab5Instance.problem9();
+            // lab5Instance.problem10();
+            lab5Instance.problem11();
         }
     }
 }
