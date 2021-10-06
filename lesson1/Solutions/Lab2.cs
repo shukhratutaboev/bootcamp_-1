@@ -44,6 +44,48 @@ namespace lesson1.Solutions
             }
             Console.WriteLine();
         }
-    
+
+        public void problem6()
+        {
+            Console.WriteLine("Sun Mon Tue Wed Thu Fri Sat");
+            foreach (int i in Enumerable.Range(3, 7))
+            {
+                Console.Write("  " + i + " ");
+            }
+        }
+
+        public void problem7()
+        {
+            Console.Write("Enter number: ");
+            var son = Console.ReadLine();
+            int num = int.Parse(son);
+            foreach (int i in Enumerable.Range(1, 9))
+            {
+                Console.WriteLine(num + "*" + i + "=" + i*num);
+            }
+        }
+
+        public void problem8()
+        {
+            int faktorial = 1;
+            foreach (int i in Enumerable.Range(1, 5))
+            {
+                faktorial *= i;
+                Console.WriteLine(i + "!=" + faktorial);
+            }
+        }
+
+        public void problem9()
+        {
+            int f1 = 0, f2 = 1, sum;
+            Console.Write(f1 + " " + f2 + " ");
+            foreach (int i in Enumerable.Range(1, 8))
+            {
+                sum = f1 + f2;
+                f1 = f2;
+                f2 = sum;
+                Console.Write(sum + " ");
+            }
+        }
     }
 }

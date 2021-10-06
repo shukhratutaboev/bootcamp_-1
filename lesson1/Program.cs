@@ -40,6 +40,10 @@ namespace lesson1
             lab2Instance.problem3();
             lab2Instance.problem4();
             lab2Instance.problem5();
+            lab2Instance.problem6();
+            lab2Instance.problem7();
+            lab2Instance.problem8();
+            lab2Instance.problem9();
         }
     }
 }
