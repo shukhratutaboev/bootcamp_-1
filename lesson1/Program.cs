@@ -47,12 +47,25 @@ namespace lesson1
 
             var lab3Instance = new Lab3();
 
-            lab3Instance.problem1();
-            lab3Instance.problem2();
-            lab3Instance.problem3();
-            lab3Instance.problem4();
-            lab3Instance.problem5();
-            lab3Instance.problem6();
+            // lab3Instance.problem1();
+            // lab3Instance.problem2();
+            // lab3Instance.problem3();
+            // lab3Instance.problem4();
+            // lab3Instance.problem5();
+            // lab3Instance.problem6();
+
+            var lab4Instance = new Lab4();
+
+            // lab4Instance.problem1();
+            // lab4Instance.problem2();
+            // lab4Instance.problem3();
+            // lab4Instance.problem4();
+            // lab4Instance.problem5();
+            // lab4Instance.problem6();
+            // lab4Instance.problem7();
+            // lab4Instance.problem8();
+            // lab4Instance.problem9();
+            lab4Instance.problem10();
         }
     }
 }
